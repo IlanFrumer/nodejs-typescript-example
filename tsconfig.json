@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "module": "esnext",
+        "target": "esnext",
+        "moduleResolution": "Node",
+        "emitDeclarationOnly": true,
+        "allowImportingTsExtensions": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+    }
+}

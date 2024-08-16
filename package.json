@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-typescript-example",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types main.ts",
+    "dev": "nodemon --exec node --experimental-strip-types main.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.3.0",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.4"
+  }
+}
